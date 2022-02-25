@@ -63,7 +63,7 @@ public class BaseClass {
 		} catch (Exception e) {
 			e.getMessage();
 		}
-		// This new path for jenkins
+		// This new path for jenkins //
 		String newImageString = "http://localhost:9090/job/demo4/ws/ExtentDemo/ScreenShot/" + filename + "_"
 				+ dateName + ".png";
 		return newImageString;
