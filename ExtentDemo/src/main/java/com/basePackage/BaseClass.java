@@ -64,7 +64,7 @@ public class BaseClass {
 			e.getMessage();
 		}
 		// This new path for jenkins //
-		String newImageString = "http://localhost:9090/job/demo4/ws/ExtentDemo/ScreenShot/" + filename + "_"
+		String newImageString = "http://localhost:8080/job/Demo3/ws/ExtentDemo/ScreenShot/" + filename + "_"
 				+ dateName + ".png";
 		return newImageString;
 	}
